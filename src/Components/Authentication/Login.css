@@ -1,0 +1,76 @@
+.ui.container {
+  height: 100vh !important;
+}
+
+body {
+  height: 100%;
+  background-image: url('./background.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-random-image {
+  background-image: url(https://source.unsplash.com/random);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.form-field {
+  margin: 20px auto !important;
+  width: 65% !important;
+}
+
+.margin-no {
+  margin: 0px !important;
+}
+
+.margin-top-eight {
+  margin-top: 8px !important;
+}
+
+.padding-no {
+  padding: 0px !important;
+}
+
+.full-height {
+  height: 100% !important;
+}
+
+.full-view-height {
+  height: 100vh !important;
+}
+
+input {
+  height: 45px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(155deg,#e12a66 0%,#5c0ce1 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.full-width {
+  width: 100% !important;
+}
+.login-component {
+  height: 500px !important;
+}
+
+.ui.segment {
+  border-radius: 20px !important;
+}
+
+.button-gradient {
+  background: linear-gradient(155deg,#e12a66 0%,#5c0ce1 100%) !important;
+  color: antiquewhite !important;
+  font-size: 18px !important;
+}
