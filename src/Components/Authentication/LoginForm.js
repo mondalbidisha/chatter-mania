@@ -1,6 +1,6 @@
 import React from 'react';
 import './Login.css';
-import { Button, Form, Grid, Icon, Header } from 'semantic-ui-react';
+import { Button, Form, Grid, Header } from 'semantic-ui-react';
 
 const LoginForm = () => {
   return (
@@ -10,7 +10,7 @@ const LoginForm = () => {
           CHATTER MANIA
         </Header>
       </Grid.Column>
-      <Grid.Column width={16}>
+      <Grid.Column width={16} verticalAlign='middle'>
         <Form>
           <div className="form-field">
             <label className="gradient-text">USERNAME</label>
@@ -20,7 +20,11 @@ const LoginForm = () => {
             <label className="gradient-text">PASSWORD</label>
             <input placeholder='****' className="margin-top-eight" type="password"/>
           </div>
-          <Button type='submit' className="full-width button-gradient">Submit</Button>
+          <Button type='submit' className="full-width button-gradient">Sign In</Button>
+          <div className="text-weight-medium margin-top-eight">
+            Not a member yet? 
+            <span className="gradient-text text-weight-bold margin-left-ten cursor-pointer">Sign Up</span>
+          </div>
         </Form>
       </Grid.Column>
     </Grid>

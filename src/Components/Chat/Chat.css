@@ -1,0 +1,61 @@
+.margin-no {
+  margin: 0px !important;
+}
+
+.margin-top-eight {
+  margin-top: 8px !important;
+}
+
+.padding-no {
+  padding: 0px !important;
+}
+
+.chat-sidebar {
+  background: linear-gradient(155deg,#e12a66 0%,#5c0ce1 100%) !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+.chat-sidebar .ui.centered.grid {
+  height: 135px;
+}
+
+.user-details-container {
+  height: 135px;
+}
+
+.user-details-container .ui.segment .ui.grid {
+  height: 135px;
+}
+
+.user-details-container .ui.segment .ui.grid .column{
+  height: 135px;
+}
+
+.user-details-container .ui.segment {
+  height: 135px;
+  background: none;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+}
+
+.text-white {
+  color: antiquewhite !important;
+}
+
+.margin-top-fifteen {
+  margin-top: 15px !important;
+}
+
+.margin-top-ten {
+  margin-top: 10px !important;
+}
+
+.edit-user-details {
+  font-size: 12px !important;
+  margin-top: -15px !important;
+  margin-left: 5px !important;
+  cursor: pointer !important;
+}

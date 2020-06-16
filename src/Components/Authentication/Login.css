@@ -74,3 +74,19 @@ label {
   color: antiquewhite !important;
   font-size: 18px !important;
 }
+
+.text-weight-medium {
+  font-weight: 500 !important;
+}
+
+.text-weight-bold {
+  font-weight: 700 !important;
+}
+
+.margin-left-ten {
+  margin-left: 10px !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
